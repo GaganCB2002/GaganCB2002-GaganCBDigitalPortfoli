@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="description" content="Gagan C B — Augmented Software Engineer. Full Stack Developer specializing in Java, Spring Boot & AI-powered systems."/>
+<title>Gagan C B · Augmented Software Engineer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- CURSOR -->
+<div id="cursor"><div id="cursor-dot"></div><div id="cursor-ring"></div></div>
+
+<!-- LOADER -->
+<div id="loader">
+  <div class="loader-inner">
+    <div class="loader-name">GAGAN C B</div>
+    <div class="loader-bar-wrap"><div class="loader-bar" id="loader-bar"></div></div>
+    <div class="loader-pct" id="loader-pct">0%</div>
+  </div>
+</div>
+
+<!-- NOISE -->
+<div id="noise"></div>
+
+<!-- NAV -->
+<nav id="nav">
+  <a href="#hero" class="nav-brand">GCB<span>.</span></a>
+  <ul class="nav-links" id="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#experience">Work</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <a href="Gagan_CB_Resume.pdf" download class="nav-resume">↓ Resume</a>
+  <button class="hamburger" id="hamburger"><span></span><span></span></button>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <canvas id="hero-canvas"></canvas>
+  <div class="hero-bg-word">ENGINEER</div>
+
+  <div class="hero-content">
+    <div class="hero-eyebrow">
+      <span class="hero-dot"></span>
+      <span>Available · Bengaluru, India</span>
+    </div>
+    <h1 class="hero-h1">
+      <span class="h1-line">GAGAN</span>
+      <em class="h1-line italic">C B</em>
+    </h1>
+    <div class="hero-tagline"><span id="typed-role"></span><span class="caret">|</span></div>
+    <p class="hero-intro">
+      Augmented Software Engineer at <em>Archelos Intelsense Technologies</em> —<br/>
+      crafting intelligent systems at the intersection of Java, AI &amp; human experience.
+    </p>
+    <div class="hero-ctas">
+      <a href="#projects" class="cta-main"><span>Explore Work</span> <svg width="16" height="16" viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      <a href="#contact" class="cta-ghost">Get in touch</a>
+    </div>
+  </div>
+
+  <div class="hero-scroll-hint"><div class="scroll-wheel"></div><span>scroll</span></div>
+
+  <div class="hero-stats-strip">
+    <div class="stat"><strong data-count="2">0</strong><span>Years Building</span></div>
+    <div class="stat-div"></div>
+    <div class="stat"><strong data-count="200" data-suffix="+">0</strong><span>Users Served</span></div>
+    <div class="stat-div"></div>
+    <div class="stat"><strong data-count="85" data-suffix="%">0</strong><span>AI Accuracy</span></div>
+    <div class="stat-div"></div>
+    <div class="stat"><strong data-count="500" data-suffix="+">0</strong><span>Profiles Parsed</span></div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="about-layout">
+    <div class="about-left" data-reveal>
+      <div class="section-label">01 — ABOUT</div>
+      <h2 class="section-h2">The person<br/><em>behind the code</em></h2>
+      <div class="about-avatar">
+        <div class="avatar-glow"></div>
+        <div class="avatar-frame">
+          <span class="avatar-letters">GCB</span>
+          <div class="avatar-ring-1"></div>
+          <div class="avatar-ring-2"></div>
+        </div>
+        <div class="avatar-status"><span class="status-dot"></span>Open to opportunities</div>
+      </div>
+    </div>
+
+    <div class="about-right">
+      <div class="about-card" data-reveal data-delay="100">
+        <p class="about-lead">
+          I'm a <mark>Full Stack Developer</mark> and <mark>AI enthusiast</mark> from Davanagere, Karnataka —
+          currently working as an Augmented Software Engineer at Archelos Intelsense Technologies,
+          building and deploying AI-powered software as part of the AIT Synergy India team.
+        </p>
+        <p class="about-body">
+          My engineering philosophy is simple: write software that <em>thinks</em>. I've built placement systems
+          that match candidates with 85% accuracy, e-commerce platforms that recommend products via NLP,
+          and employee systems that 200+ people rely on every day. I graduated in Computer Science from
+          Akshaya Institute of Technology (2021–2025) and spent my final semester at Palle Technologies,
+          where I learned what it means to ship real software for real stakeholders.
+        </p>
+        <p class="about-body">
+          Outside the IDE, I'm deep in AI research, experimenting with prompt engineering, and
+          thinking about how machine intelligence can make everyday software feel genuinely alive.
+        </p>
+      </div>
+
+      <div class="about-facts" data-reveal data-delay="200">
+        <div class="fact"><span class="fact-icon">📍</span><div><strong>Location</strong><span>Davanagere, Karnataka, India</span></div></div>
+        <div class="fact"><span class="fact-icon">🎓</span><div><strong>Degree</strong><span>B.E. Computer Science · AIT Tumakuru · 2021–2025</span></div></div>
+        <div class="fact"><span class="fact-icon">💼</span><div><strong>Current Role</strong><span>Augmented Software Engineer @ Archelos Intelsense</span></div></div>
+        <div class="fact"><span class="fact-icon">⚡</span><div><strong>Speciality</strong><span>Java · Spring Boot · AI Integration · NLP</span></div></div>
+        <div class="fact"><span class="fact-icon">🌐</span><div><strong>Portfolio</strong><span><a href="https://gagancb2002.github.io/GaganCBDigitalPortfolio" target="_blank">gagancb2002.github.io</a></span></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <div class="container">
+    <div class="section-label" data-reveal>02 — WORK EXPERIENCE</div>
+    <h2 class="section-h2" data-reveal>Where I've<br/><em>made an impact</em></h2>
+
+    <div class="exp-timeline">
+
+      <div class="exp-item" data-reveal>
+        <div class="exp-connector">
+          <div class="exp-node current-node"><div class="node-ping"></div></div>
+          <div class="exp-line"></div>
+        </div>
+        <div class="exp-card">
+          <div class="exp-header">
+            <div class="exp-badge">● NOW</div>
+            <div class="exp-period">Mar 2026 — Present</div>
+          </div>
+          <h3 class="exp-role">Augmented Software Engineer</h3>
+          <div class="exp-company"><span class="company-name">Archelos Intelsense Technologies Pvt Ltd</span><span class="company-loc"> · AIT Synergy India · Bengaluru</span></div>
+          <ul class="exp-points">
+            <li>Developing, testing, and deploying diverse software applications contributing to <strong>AI and software development</strong> initiatives at the AIT Synergy India team.</li>
+            <li>Collaborating with cross-functional teams to build innovative software solutions while adhering to high-quality standards and industry best practices.</li>
+            <li>Staying updated with industry trends and implementing best practices to drive growth in <strong>AI-powered software development</strong> projects.</li>
+          </ul>
+          <div class="exp-tags"><span>AI Development</span><span>Software Engineering</span><span>Cross-functional Teams</span><span>Best Practices</span></div>
+        </div>
+      </div>
+
+      <div class="exp-item" data-reveal data-delay="150">
+        <div class="exp-connector">
+          <div class="exp-node"></div>
+          <div class="exp-line"></div>
+        </div>
+        <div class="exp-card">
+          <div class="exp-header">
+            <div class="exp-period">Feb 2025 — May 2025</div>
+          </div>
+          <h3 class="exp-role">Full Stack Developer Intern</h3>
+          <div class="exp-company"><span class="company-name">Palle Technologies</span><span class="company-loc"> · Bengaluru, Karnataka</span></div>
+          <div class="exp-highlights">
+            <div class="hl-chip"><strong>30%</strong> Efficiency boost</div>
+            <div class="hl-chip"><strong>25%</strong> Faster APIs</div>
+            <div class="hl-chip"><strong>200+</strong> Users</div>
+          </div>
+          <ul class="exp-points">
+            <li>Engineered an <strong>Employee Management System</strong> with RESTful APIs for onboarding, leave management, and role-based access control — serving 200+ users.</li>
+            <li>Implemented <strong>JWT authentication</strong> and optimized MySQL queries, achieving 25% reduction in API response time.</li>
+            <li>Actively contributed to Agile cycles: sprint planning, standups, code reviews, and retrospectives.</li>
+            <li>Authored technical specs and implemented bug fixes following established SDLC best practices.</li>
+          </ul>
+          <div class="exp-tags"><span>Java</span><span>Spring Boot</span><span>MySQL</span><span>JWT</span><span>REST APIs</span><span>Agile</span></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="container">
+    <div class="section-label" data-reveal>03 — PROJECTS</div>
+    <h2 class="section-h2" data-reveal>Things I've<br/><em>built &amp; shipped</em></h2>
+  </div>
+
+  <div class="projects-showcase">
+
+    <div class="proj-block" data-reveal>
+      <div class="proj-num">01</div>
+      <div class="proj-visual">
+        <div class="proj-mockup">
+          <div class="mock-bar"><span></span><span></span><span></span></div>
+          <div class="mock-body-inner">
+            <div class="mock-side">
+              <div class="msn a"></div><div class="msn b"></div><div class="msn c"></div><div class="msn d"></div>
+            </div>
+            <div class="mock-main-area">
+              <div class="mock-title-bar"></div>
+              <div class="mock-cards-row">
+                <div class="mc"><div class="mc-val">85%</div><div class="mc-l">AI Match</div></div>
+                <div class="mc"><div class="mc-val">500+</div><div class="mc-l">Profiles</div></div>
+                <div class="mc"><div class="mc-val">NLP</div><div class="mc-l">Engine</div></div>
+              </div>
+              <div class="mock-table-rows">
+                <div class="mtr header"><div></div><div></div><div></div><div></div></div>
+                <div class="mtr"><div></div><div></div><div></div><div class="mbadge"></div></div>
+                <div class="mtr"><div></div><div></div><div></div><div class="mbadge green"></div></div>
+                <div class="mtr"><div></div><div></div><div></div><div class="mbadge"></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="proj-info">
+        <h3 class="proj-title">AI-Powered Student<br/>Placement System</h3>
+        <p class="proj-desc">A comprehensive placement management platform that uses ML to match candidates with jobs. Full microservices architecture with a dedicated AI engine achieving 85% prediction accuracy.</p>
+        <div class="proj-achs">
+          <div class="pa"><span class="pav">85%</span><span class="pal">Placement prediction accuracy</span></div>
+          <div class="pa"><span class="pav">500+</span><span class="pal">Candidates analysed via NLP parser</span></div>
+        </div>
+        <ul class="proj-ul">
+          <li>TF-IDF + Cosine Similarity for intelligent candidate-job matching</li>
+          <li>Microservices: Spring Boot (Java 17) + FastAPI AI engine + React 19 frontend</li>
+          <li>NLP resume parser via spaCy, NLTK, scikit-learn — extracts skills, education & experience</li>
+          <li>Real-time dashboard with Tailwind CSS and placement statistics</li>
+          <li>Role-based access via Spring Security & JWT authentication</li>
+        </ul>
+        <div class="proj-stack">
+          <span>Java 17</span><span>Spring Boot</span><span>FastAPI</span><span>PostgreSQL</span>
+          <span>Python</span><span>React 19</span><span>spaCy</span><span>TF-IDF</span><span>Tailwind</span><span>JWT</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="proj-block reverse" data-reveal>
+      <div class="proj-num">02</div>
+      <div class="proj-visual">
+        <div class="proj-mockup mockup-dark">
+          <div class="mock-bar"><span></span><span></span><span></span></div>
+          <div class="ecomm-wrap">
+            <div class="ecomm-search-bar"><div class="esb-icon">⌕</div><div class="esb-text"></div></div>
+            <div class="ecomm-grid">
+              <div class="ec-card"><div class="ec-img c1"></div><div class="ec-price">₹1,299</div><div class="ec-ai">AI Pick ✦</div></div>
+              <div class="ec-card ft"><div class="ec-img c2"></div><div class="ec-price">₹2,499</div><div class="ec-ai">Trending</div></div>
+              <div class="ec-card"><div class="ec-img c3"></div><div class="ec-price">₹899</div><div class="ec-ai">AI Pick ✦</div></div>
+              <div class="ec-card"><div class="ec-img c4"></div><div class="ec-price">₹3,199</div><div class="ec-ai">New</div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="proj-info">
+        <h3 class="proj-title">NexaCart — AI-Powered<br/>E-Commerce Platform</h3>
+        <p class="proj-desc">An AI-driven e-commerce platform with NLP-powered recommendations that learns what users want. Cuts search time by 35% and surfaces exactly what customers need.</p>
+        <div class="proj-achs">
+          <div class="pa"><span class="pav">35%</span><span class="pal">Reduction in customer search time</span></div>
+          <div class="pa"><span class="pav">NLP</span><span class="pal">Personalized recommendation engine</span></div>
+        </div>
+        <ul class="proj-ul">
+          <li>NLP-powered product recommendation engine tailored to user behaviour</li>
+          <li>Scalable REST APIs for auth, cart operations, order processing & AI recommendations</li>
+          <li>Responsive UI with dark mode, smooth animations, and advanced filtering</li>
+          <li>Efficient data structures & design patterns for optimized performance</li>
+        </ul>
+        <div class="proj-stack">
+          <span>Java</span><span>Spring Boot</span><span>MySQL</span><span>Python</span>
+          <span>NLP</span><span>REST APIs</span><span>HTML5</span><span>CSS3</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="container">
+    <div class="section-label" data-reveal>04 — SKILLS & TOOLS</div>
+    <h2 class="section-h2" data-reveal>My technical<br/><em>arsenal</em></h2>
+  </div>
+
+  <div class="skills-grid-wrap container">
+    <div class="skills-col" data-reveal>
+      <div class="skills-col-label">Languages</div>
+      <div class="skill-bars">
+        <div class="skill-bar-item"><div class="sb-label"><span>Java</span><span>Expert</span></div><div class="sb-track"><div class="sb-fill" data-pct="90"></div></div></div>
+        <div class="skill-bar-item"><div class="sb-label"><span>SQL</span><span>Advanced</span></div><div class="sb-track"><div class="sb-fill" data-pct="80"></div></div></div>
+        <div class="skill-bar-item"><div class="sb-label"><span>Python</span><span>Intermediate</span></div><div class="sb-track"><div class="sb-fill" data-pct="60"></div></div></div>
+        <div class="skill-bar-item"><div class="sb-label"><span>HTML5 / CSS3</span><span>Advanced</span></div><div class="sb-track"><div class="sb-fill" data-pct="78"></div></div></div>
+      </div>
+    </div>
+
+    <div class="skills-col" data-reveal data-delay="100">
+      <div class="skills-col-label">Frameworks & DB</div>
+      <div class="skill-chips-wrap">
+        <div class="skill-chip-lg primary">Spring Boot</div>
+        <div class="skill-chip-lg">Spring Security</div>
+        <div class="skill-chip-lg">FastAPI</div>
+        <div class="skill-chip-lg">React</div>
+        <div class="skill-chip-lg">Tailwind CSS</div>
+        <div class="skill-chip-lg primary">MySQL</div>
+        <div class="skill-chip-lg primary">PostgreSQL</div>
+        <div class="skill-chip-lg">JDBC</div>
+      </div>
+    </div>
+
+    <div class="skills-col" data-reveal data-delay="200">
+      <div class="skills-col-label">AI & Intelligence</div>
+      <div class="skill-chips-wrap">
+        <div class="skill-chip-lg ai">NLP</div>
+        <div class="skill-chip-lg ai">TF-IDF</div>
+        <div class="skill-chip-lg ai">Cosine Similarity</div>
+        <div class="skill-chip-lg ai">spaCy</div>
+        <div class="skill-chip-lg ai">NLTK</div>
+        <div class="skill-chip-lg ai">scikit-learn</div>
+        <div class="skill-chip-lg ai">Generative AI</div>
+        <div class="skill-chip-lg ai">Prompt Engineering</div>
+      </div>
+    </div>
+
+    <div class="skills-col" data-reveal data-delay="300">
+      <div class="skills-col-label">Tools & Process</div>
+      <div class="skill-chips-wrap">
+        <div class="skill-chip-lg">Git / GitHub</div>
+        <div class="skill-chip-lg">Maven</div>
+        <div class="skill-chip-lg">Postman</div>
+        <div class="skill-chip-lg">IntelliJ IDEA</div>
+        <div class="skill-chip-lg">VS Code</div>
+        <div class="skill-chip-lg">Agile / Scrum</div>
+        <div class="skill-chip-lg">SDLC</div>
+        <div class="skill-chip-lg">OOP</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section id="certifications">
+  <div class="container">
+    <div class="section-label" data-reveal>05 — CERTIFICATIONS</div>
+    <h2 class="section-h2" data-reveal>Credentials &<br/><em>achievements</em></h2>
+    <div class="certs-row">
+      <div class="cert-item" data-reveal><div class="cert-logo cl-d">D</div><div class="cert-info"><div class="cert-name">Technology Job Simulation</div><div class="cert-org">Deloitte Australia</div></div><span class="cert-arr">↗</span></div>
+      <div class="cert-item" data-reveal data-delay="80"><div class="cert-logo cl-d">D</div><div class="cert-info"><div class="cert-name">Cyber Security Job Simulation</div><div class="cert-org">Deloitte Australia</div></div><span class="cert-arr">↗</span></div>
+      <div class="cert-item" data-reveal data-delay="160"><div class="cert-logo cl-t">T</div><div class="cert-info"><div class="cert-name">GenAI Powered Data Analytics Simulation</div><div class="cert-org">Tata Group</div></div><span class="cert-arr">↗</span></div>
+      <div class="cert-item" data-reveal data-delay="240"><div class="cert-logo cl-f">F</div><div class="cert-info"><div class="cert-name">Software Engineering Job Simulation</div><div class="cert-org">Forage</div></div><span class="cert-arr">↗</span></div>
+      <div class="cert-item" data-reveal data-delay="320"><div class="cert-logo cl-u">U</div><div class="cert-info"><div class="cert-name">Complete Java Core for Beginners</div><div class="cert-org">Udemy</div></div><span class="cert-arr">↗</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="contact-inner">
+    <div class="contact-bg-word">HELLO</div>
+    <div class="contact-content" data-reveal>
+      <div class="section-label">06 — LET'S TALK</div>
+      <h2 class="contact-h2">Got a project,<br/>role, or <em>idea?</em></h2>
+      <p class="contact-sub">I'm open to full-time roles, freelance projects, and collaborations where AI and good engineering intersect. I respond within 24 hours.</p>
+      <div class="contact-links">
+        <a href="mailto:gagancb2002@gmail.com" class="contact-link primary">
+          <span class="cl-icon">✉</span>
+          <div><div class="cl-label">Email me directly</div><div class="cl-val">gagancb2002@gmail.com</div></div>
+          <span class="cl-arr">↗</span>
+        </a>
+        <a href="https://linkedin.com/in/gagancb" target="_blank" class="contact-link">
+          <span class="cl-icon">in</span>
+          <div><div class="cl-label">LinkedIn</div><div class="cl-val">linkedin.com/in/gagancb</div></div>
+          <span class="cl-arr">↗</span>
+        </a>
+        <a href="https://github.com/GaganCB2002" target="_blank" class="contact-link">
+          <span class="cl-icon">⌥</span>
+          <div><div class="cl-label">GitHub</div><div class="cl-val">github.com/GaganCB2002</div></div>
+          <span class="cl-arr">↗</span>
+        </a>
+        <a href="tel:+918618666069" class="contact-link">
+          <span class="cl-icon">☎</span>
+          <div><div class="cl-label">Phone</div><div class="cl-val">+91 86186 66069</div></div>
+          <span class="cl-arr">↗</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-top">
+    <span class="footer-brand">GAGAN C B</span>
+    <span class="footer-role">Augmented Software Engineer · Full Stack Developer · AI Enthusiast</span>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 Gagan C B · Davanagere, Karnataka, India</span>
+    <a href="Gagan_CB_Resume.pdf" download class="footer-dl">↓ Download Resume</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
