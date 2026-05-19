@@ -19,8 +19,8 @@ A premium, interactive, and high-end digital portfolio showcasing engineering ac
 ## 📂 Project Structure
 
 ```text
-├── INDEX.HTML         # Core website structure & SEO tags
-├── style.CSS          # Premium custom styles, typography, and theme tokens
+├── index.html         # Core website structure & SEO tags
+├── style.css          # Premium custom styles, typography, and theme tokens
 ├── script.js          # Interactive canvas, cursor physics, and animations
 └── doc/               # Document repository
     ├── Gagan_CB_Resume.pdf                    # Latest Professional Resume
@@ -48,8 +48,8 @@ Since the project uses purely native web technologies, no build tools or package
    cd "d:\AIT bengaluru\reactjs\React_projects\TEST"
    ```
 2. **Launch the Website**:
-   Simply open `INDEX.HTML` in any modern web browser:
+   Simply open `index.html` in any modern web browser:
    ```bash
-   start INDEX.HTML
+   start index.html
    ```
    Or serve it using a lightweight local web server if desired.
