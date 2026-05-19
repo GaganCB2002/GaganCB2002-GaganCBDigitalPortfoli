@@ -271,7 +271,7 @@
   }, { threshold: 0.3 });
   document.querySelectorAll('.skills-col').forEach(col => barObs.observe(col));
 
-  // ── TILT EFFECT ON PROJECT MOCKUPS ──────────────────────────────
+  // ── TILT EFFECT ON PROJECT MOCKUPS & SPOTLIGHT ANIMATION ────────
   document.querySelectorAll('.proj-mockup').forEach(card => {
     const wrap = card.closest('.proj-visual');
     if (!wrap) return;
@@ -280,6 +280,11 @@
       const x = ((e.clientX - r.left) / r.width  - .5) * 14;
       const y = ((e.clientY - r.top)  / r.height - .5) * -10;
       card.style.transform = `perspective(800px) rotateY(${x}deg) rotateX(${y}deg) translateY(-8px)`;
+
+      const px = e.clientX - r.left;
+      const py = e.clientY - r.top;
+      card.style.setProperty('--mouse-x', `${px}px`);
+      card.style.setProperty('--mouse-y', `${py}px`);
     });
     wrap.addEventListener('mouseleave', () => {
       card.style.transform = '';
